@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "agents"
+version = "0.1.0"
+description = ""
+authors = ["Marc Fabian Mezger <marc.mezger@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^0.0.58"
+langchain-cohere = "^0.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
